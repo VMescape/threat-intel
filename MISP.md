@@ -96,4 +96,3 @@
   * Ensure "Plugin.Action_services_url" set to "http://misp-modules", and click the ✔
   * Click on "Workflow" blue text
   * Change "Plugin.Workflow_enable" to true, and click the ✔
--
