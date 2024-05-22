@@ -77,15 +77,23 @@
      - Organisation Type: External organisation
      - External Organisation: CTIDiags
      - Authkey: A 40 character long string
-   * Check the following:
+  * Check the following:
      - Push, Pull, Unpublish Event
-   * Click "Modify" black button under "Push rules"
-   * Click on "Select some tags" gray text in middle top bar
-   * Type "false" and click"workflow:todo=review-for-false-positive" tag
-   * Click the ▶ button to move it into the right hand "Blocked tags" box
-   * Update and submit
- - Scheduled Tasks
-   * Administrator > Scheduled Tasks
-   * Update "fetch_feeds" frequency hour to "24"
-   * Update "catch_feeds" frequency hour to "24"
-   * Click Update all button
+  * Click "Modify" black button under "Push rules"
+  * Click on "Select some tags" gray text in middle top bar
+  * Type "false" and click"workflow:todo=review-for-false-positive" tag
+  * Click the ▶ button to move it into the right hand "Blocked tags" box
+  * Update and submit
+- Scheduled Tasks (deprecated) 
+  * Administrator > Scheduled Tasks
+  * Update "fetch_feeds" frequency hour to "24"
+  * Update "catch_feeds" frequency hour to "24"
+  * Click Update all button
+- Enable Workflows
+  * Administration > Server Settings & Maintenance
+  * Plugin > Action
+  * Change "Plugin.Action_services_enable" to true, and click the ✔
+  * Ensure "Plugin.Action_services_url" set to "http://misp-modules", and click the ✔
+  * Click on "Workflow" blue text
+  * Change "Plugin.Workflow_enable" to true, and click the ✔
+-
