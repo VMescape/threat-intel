@@ -62,3 +62,12 @@
 - Enable Warninglists
   * Input Filters > Warninglists
   * Enable desired warninglists ("RFC 5735" recommended)
+- Enable Feeds
+  * Sync Actions > Feeds > Load Default Feed Metadata
+  * Click notepad and pen icon "CIRCL OSINT Feed"
+  * Check Enabled
+  * Click Modify, under additional sync parameters add: {"last": "30d"}
+  * Update and submit
+- Remote Servers
+  * 
+
