@@ -53,4 +53,5 @@
   * Click notepad and pen icon
   * Change Organisation Identifier to org name and submit
 - Create Users
-  * 
+  * Administrator > Add User
+  * Configure as required
