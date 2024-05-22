@@ -55,3 +55,10 @@
 - Create Users
   * Administrator > Add User
   * Configure as required
+- Enable Taxonomies
+  * Event Actions > List Taxonomies
+  * Enable "tlp", "tlp", "admiralty-scale" and "workflow"
+  * View enabled taxonomies, and select "enabled all" under the Active Tags column
+- Enable Warninglists
+  * Input Filters > Warninglists
+  * Enable desired warninglists ("RFC 5735" recommended)
