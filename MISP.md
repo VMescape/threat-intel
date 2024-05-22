@@ -28,28 +28,29 @@
 
 ## Configuring Docker
 - Cloning misp-docker
- * cd ~
- * git clone https://github.com/MISP/misp-docker
- * cd misp-docker
- * ls
+  * cd ~
+  * git clone https://github.com/MISP/misp-docker
+  * cd misp-docker
+  * ls
 - Configuring misp-docker
- * hostname -I
- * cp template.env .env
- * echo "BASE_URL=https://ip.address.goes.here" >>.env
+  * hostname -I
+  * cp template.env .env
+  * echo "BASE_URL=https://ip.address.goes.here" >>.env
 - Running misp-docker
- * sudo docker compose up -d
+  * sudo docker compose up -d
    
 ## Accessing MISP
 - Navigate to "https://ip.address.goes.here/" in browser
- * Default username: admin@admin.test
- * Default password: admin
+  * Default username: admin@admin.test
+  * Default password: admin
 
 ## Configuring MISP
 - Checking diagnostics
- * Administrator > Server Settings & Maintenance > Dianogistics
- * Examine the state of the MISP instance
+  * Administrator > Server Settings & Maintenance > Dianogistics
+  * Examine the state of the MISP instance
 - Adding Organisation
- * Administrator > List Organisations
- * Click notepad and pen icon
- * Change Organisation Identifier to org name and submit
-- 
+  * Administrator > List Organisations
+  * Click notepad and pen icon
+  * Change Organisation Identifier to org name and submit
+- Create Users
+  * 
